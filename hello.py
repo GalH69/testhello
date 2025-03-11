@@ -12,6 +12,7 @@ def dec_to_minusbin(num, amount):
     text_bin_num = "".join(lst_bin)
     bin_num = int(text_bin_num, 2)
     
+    
     bin_num_one = bin(1)[2:]
     bin_num = bin_num + bin_num_one,2
     
