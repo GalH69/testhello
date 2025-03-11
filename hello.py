@@ -1,4 +1,4 @@
-def dec_to_minusbin(num):
+def dec_to_minusbin(num, amount):
     #to bin
     bin_num = bin(num)
     bin_num = bin_num[2:]
