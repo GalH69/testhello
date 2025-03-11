@@ -13,9 +13,10 @@ def dec_to_minusbin(num, amount):
     bin_num = int(text_bin_num, 2)
     
     
+    bin_num = bin(bin_num)[2:]
     bin_num_one = bin(1)[2:]
-    bin_num = bin_num + bin_num_one,2
+    bin_num = bin_num + bin_num_one
     
-    print(int(bin_num,2))
+    print(bin_num)
 dec_to_minusbin(5,8)
         
