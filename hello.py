@@ -5,6 +5,7 @@ def dec_to_minusbin(num, amount):
     text_bin_num = f"{bin_num}"
     
     missing_zeros = amount - len(bin_num)
+    print(missing_zeros)
     text_bin_num = ('0' * missing_zeros) + text_bin_num
     
     #complete to 2
