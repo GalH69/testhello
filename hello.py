@@ -7,6 +7,7 @@ def dec_to_minusbin(num, amount):
     missing_zeros = amount - len(bin_num)
     print(missing_zeros)
     text_bin_num = ('0' * missing_zeros) + text_bin_num
+    print(text_bin_num)
     
     #complete to 2
     lst_bin = ['1' if bit == '0' else '0' for bit in text_bin_num]
