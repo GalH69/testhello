@@ -3,5 +3,5 @@ def dec_to_minusbin(num):
     bin_num = bin(num)
     
     #complete to 2
-    for n in num:
+    for n in bin_num:
         
