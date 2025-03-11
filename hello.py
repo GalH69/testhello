@@ -12,7 +12,7 @@ def dec_to_minusbin(num, amount):
     #complete to 2
     lst_bin = ['1' if bit == '0' else '0' for bit in text_bin_num]
     text_bin_num = "".join(lst_bin)
-    bin_num = int(text_bin_num, 10)
+    bin_num = int(text_bin_num, 2)
     
     
     bin_num = bin(bin_num)[2:]
