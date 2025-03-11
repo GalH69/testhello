@@ -4,8 +4,11 @@ def dec_to_minusbin(num, amount):
     bin_num = bin_num[2:]
     text_bin_num = f"{bin_num}"
     
+    missing_zeros = amount - len(bin_num)
+    text_bin_num = ('0' * missing_zeros) + text_bin_num
+    
     #complete to 2
-    lst_bin = ['1' if bit == '0' else '0' for bit in bin_num]
+    lst_bin = ['1' if bit == '0' else '0' for bit in text_bin_num]
     bin_num = "".join(lst_bin)
     bin_num = int(bin_num, 2)
     
