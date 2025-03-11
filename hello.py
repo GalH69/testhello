@@ -1,7 +1,6 @@
 def dec_to_minusbin(num):
     #to bin
     bin_num = bin(num)
-    str(num)
     bin_num = bin_num[2:]
     
     #complete to 2
