@@ -8,5 +8,7 @@ def dec_to_minusbin(num):
     bin_num = "".join(lst_bin)
     bin_num = int(bin_num, 2)
     
+    bin_num = bin_num + int(1,2)
+    
     
         
