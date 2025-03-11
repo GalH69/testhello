@@ -1,1 +1,1 @@
-dic = [x ]
+dic = [x for x in range(1,51)]
